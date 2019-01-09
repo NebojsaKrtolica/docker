@@ -5,6 +5,7 @@
 - link:task-3.adoc[Task 3: Application]
 - link:task-4.adoc[Task 4: Software-Installation]
 - link:task-5.adoc[Task 5: Docker-Network]
+- link:task-6.adoc[Task 6: Hello Compose]
 
 == Linux-Commands
 
