@@ -1,7 +1,7 @@
 = Task 6: Docker-Compose
 :tip-caption: Tip
 
-Let's connect multiple containers on the same network as one logical application.
+Let's connect multiple containers as one logical application (or two applications depending on one another).
 
 
 . Databases are a perfect candidate since they are usually accompanied by some GUI standalone application.
