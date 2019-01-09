@@ -1,0 +1,3 @@
+DPkg::Pre-Install-Pkgs {"/usr/sbin/dpkg-preconfigure --apt || true";};
+Acquire::http::proxy "http://proxy-goes-here";
+Acquire::https::proxy "https://proxy-goes-here";

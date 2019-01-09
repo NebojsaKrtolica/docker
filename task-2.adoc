@@ -1,0 +1,7 @@
+= Task 2: Images
+:tip-caption: Tip
+
+Build a Docker-Image, which executes `"Hello, Barco"`.
+
+TIP: `docker build -t <image> .` + 
+``Dockerfile``-Commands see Hand-Out

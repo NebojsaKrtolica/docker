@@ -1,0 +1,13 @@
+= Task 1: Hello Docker
+:tip-caption: Tip
+
+. make yourself comfortable with the following docker commands:
+
+- `docker`
+- `docker version`
+- `docker help`
+- `docker ps`
+
+. Execute the command `/bin/echo "Hello, Barco"` inside of a Docker-Container.
+
+TIP: `docker run <image>:<tag> <command>`  i.e. with Image `debian` with the version `8.11`. 

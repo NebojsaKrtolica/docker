@@ -1,0 +1,9 @@
+= Linux-Commands
+:tip-caption: Tipp
+
+Some help regarding common Linux commands:
+
+- `cd <dir>`: Navigate to <dir> folder relative to current folder.
+- `cp <source> <dest>`: copies data from <source> to <destination>.
+- `mkdir <dir>`: creates/makes a new directory.
+- `vim <file>`: VIM-Texteditor. Edit a file. (tip: install nano)

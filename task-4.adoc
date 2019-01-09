@@ -1,0 +1,16 @@
+= Task 4: Software-Installation
+:tip-caption: Tip
+
+Build a Docker-Image from Base-Image `debian:8.11`, that installs the app `curl`.
+
+Hint: a company proxy may be in the way of things, so that `apt-get` is in danger.
+
+. Create a new `Dockerfile` from the base-image `debian:8.11`.
+
+. Proxy: make sure the file `70debconf` is under `/etc/apt/apt.conf.d/` .
+
+. Install `curl` with the Docker-Build via `apt-get update && apt-get install -y curl`.
+
+. Start a container from the freshly created image and make sure that curl is there.
+
+TIP: ``Dockerfile``-Commands -> Hand-Out

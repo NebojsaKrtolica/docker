@@ -1,0 +1,16 @@
+= Task 5: Docker-Network
+:tip-caption: Tip
+
+Let's connect multiple containers on the same network via logical names.
+
+A local Docker-Network `docnet` exists (...or is about to exist :P).
+
+. Start both containers from this workshop "hello barco" and "the curly one".
+Make sure both containers have a meaningful name and are running on the same docker-network.
+
+No port is to be published on the local machine.
+
+. Try to reach the "hello barco" container from inside the "curly" one with:
+ `curl <container-name>:9080/hello-barco/resources/hello` or `curl <container-name>:9080`.
+
+TIP: `docker run --name <name> --network <network> <image>`

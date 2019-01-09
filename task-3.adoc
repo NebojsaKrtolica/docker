@@ -1,0 +1,15 @@
+= Task 3: Application or simple index.html
+:tip-caption: Tipp
+
+. Build a Docker-Image, which has an application or web server i.e. Liberty-Server with the app "`Hello Barco`" or nginx web server with an index.html inside of it.
+Use as Base-Image `websphere-liberty:javaee8` or nginx.
+The app is `hello-barco.war`.
+For Liberty:  
+To deploy the app automatically on start:
+it should be available under `/config/dropins`
+
+. Start a Docker-Container of the image with locally published port `9080`.
+
+. Reach the application with  `curl localhost:9080/hello-barco/resources/hello` or `curl localhost:9080`.
+
+TIP: `docker run -p <host-port>:<container-port> <image>`
