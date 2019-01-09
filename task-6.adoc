@@ -5,7 +5,7 @@ Let's connect multiple containers on the same network as one logical application
 
 
 . Databases are a perfect candidate since they are usually accompanied by some GUI standalone application.
-  Postgres and Adminer are one such example
+  PostgreSQL and Adminer are one such example
 
 . Write a compose file consisting of both applications and Adminer should depend on postgres to start.
  .. docker-compose key abastracions are required:
