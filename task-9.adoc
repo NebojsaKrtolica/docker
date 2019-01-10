@@ -2,3 +2,5 @@ Bonus task: see https://hub.docker.com/r/jwilder/nginx-proxy
 
 
 Task: configure and start an nginx-proxy container that will act as a reverse proxy for all containers on the docker host.
+
+TIP: /var/run/docker.sock:/var/run/docker.sock
