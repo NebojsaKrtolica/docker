@@ -1,0 +1,15 @@
+= Task 7: Docker-Volumes
+:tip-caption: Tip
+
+Let's create a bind mount and/or Data Volume and attach it to an nginx container.
+
+
+. Create an index.html and store it somewhere.
+  start an nginx container and mount the dir where the index.html is inside the container
+
+. Change the content of the index.html and ctrl+f5 in the browser
+
+Make 
+
+TIP: `docker run -v /<path_to_index>:<path_in_container> <image> `
+TIP: `docker volume create <name> `
