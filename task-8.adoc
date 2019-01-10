@@ -1,0 +1,15 @@
+= Task 8: Share Volume/Mount between containers
+:tip-caption: Tip
+
+Let's create two nginx containers and mount them the same bind mount or volume.
+
+
+. Create an index.html and store it somewhere.
+  start an nginx container and mount the dir where the index.html is inside the container.
+  Start another nginx with the same path mounted to it.
+
+. Change the content of the index.html and ctrl+f5 in the browser, check both tabs
+
+Make 
+
+TIP: `docker run --volumes-from <container_to_reference>`
